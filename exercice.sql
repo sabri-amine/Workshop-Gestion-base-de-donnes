@@ -38,3 +38,7 @@ INSERT INTO clients (nom , email , date_inscription) VALUES ('Bob Robert','bob.r
 -- 3)
 
 SELECT titre, auteur,prix from livre
+
+
+-- 4)
+SELECT * FROM livre where prix>20
