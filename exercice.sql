@@ -33,3 +33,8 @@ INSERT INTO livre (titre , auteur , prix , stock) VALUES ('Harry Potter et la pi
 INSERT INTO clients (nom , email , date_inscription) VALUES ('Jean Dupont','jean.dupont@email.fr','2024-01-10');
 INSERT INTO clients (nom , email , date_inscription) VALUES ('Alice Martin','	alice.martin@email.fr','2024-02-15');
 INSERT INTO clients (nom , email , date_inscription) VALUES ('Bob Robert','bob.robert@email.f','2024-03-20');
+
+
+-- 3)
+
+SELECT titre, auteur,prix from livre
