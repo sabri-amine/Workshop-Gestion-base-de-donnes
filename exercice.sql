@@ -46,3 +46,9 @@ SELECT * FROM livre where prix>20
 -- 5)
 
 SELECT * FROM clients WHERE date_inscription > '2024-02-01'
+
+
+-- 6)
+
+UPDATE livre SET stock = stock - 1 WHERE titre = '1984'
+
