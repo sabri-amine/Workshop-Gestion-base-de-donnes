@@ -25,3 +25,11 @@ INSERT INTO livre (titre , auteur , prix , stock) VALUES ('Les Misérables','Vic
 INSERT INTO livre (titre , auteur , prix , stock) VALUES ('Le Petit Prince','Antoine de Saint-Exupéry',15.99,5);
 INSERT INTO livre (titre , auteur , prix , stock) VALUES (1984,'George Orwell',18.00,8);
 INSERT INTO livre (titre , auteur , prix , stock) VALUES ('Harry Potter et la pierre philosophale','J.K. Rowling',25.00,10);
+
+
+
+-- table clients
+
+INSERT INTO clients (nom , email , date_inscription) VALUES ('Jean Dupont','jean.dupont@email.fr','2024-01-10');
+INSERT INTO clients (nom , email , date_inscription) VALUES ('Alice Martin','	alice.martin@email.fr','2024-02-15');
+INSERT INTO clients (nom , email , date_inscription) VALUES ('Bob Robert','bob.robert@email.f','2024-03-20');
