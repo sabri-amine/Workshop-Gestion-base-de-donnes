@@ -16,3 +16,12 @@ CREATE TABLE livre (
     email VARCHAR(255) NOT NULL UNIQUE,
     date_inscription DATE NOT NULL
     );
+
+
+-- 2)
+-- table livres
+
+INSERT INTO livre (titre , auteur , prix , stock) VALUES ('Les Misérables','Victor Hugo',20.50,12);
+INSERT INTO livre (titre , auteur , prix , stock) VALUES ('Le Petit Prince','Antoine de Saint-Exupéry',15.99,5);
+INSERT INTO livre (titre , auteur , prix , stock) VALUES (1984,'George Orwell',18.00,8);
+INSERT INTO livre (titre , auteur , prix , stock) VALUES ('Harry Potter et la pierre philosophale','J.K. Rowling',25.00,10);
