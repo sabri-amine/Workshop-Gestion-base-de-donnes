@@ -55,3 +55,8 @@ UPDATE livre SET stock = stock - 1 WHERE titre = '1984'
 -- 7)
 
 DELETE FROM clients WHERE email = 'bob.robert@email.f';
+
+
+-- 8)
+
+INSERT INTO Livre (titre,auteur,prix,stock) VALUES ("Le Seigneur des Anneaux","J.R.R. Tolkien", 30.00,7)
