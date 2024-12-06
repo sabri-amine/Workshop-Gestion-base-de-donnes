@@ -9,3 +9,10 @@ CREATE TABLE livre (
     prix DECIMAL(5,2)NOT NULL,
     stock INT NOT NULL
     )
+
+    CREATE TABLE Clients(
+    id	INT	PRIMARY KEY,
+    nom	VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    date_inscription DATE NOT NULL
+    );
