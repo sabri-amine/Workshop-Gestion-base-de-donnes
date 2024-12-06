@@ -52,3 +52,6 @@ SELECT * FROM clients WHERE date_inscription > '2024-02-01'
 
 UPDATE livre SET stock = stock - 1 WHERE titre = '1984'
 
+-- 7)
+
+DELETE FROM clients WHERE email = 'bob.robert@email.f';
