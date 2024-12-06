@@ -42,3 +42,7 @@ SELECT titre, auteur,prix from livre
 
 -- 4)
 SELECT * FROM livre where prix>20
+
+-- 5)
+
+SELECT * FROM clients WHERE date_inscription > '2024-02-01'
